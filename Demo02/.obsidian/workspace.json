@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0612/GMP模型.md",
-                "mode": "source",
+                "file": "0612/map.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GMP模型"
+              "title": "map"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "Lock"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,14 +182,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "0a2f970eafd95451",
+  "active": "6e28c2ef7c4baa07",
   "lastOpenFiles": [
-    "0612/GMP模型.md",
+    "0612/Lock Note.md",
     "0612/Lock.md",
+    "0612/map.md",
+    "0612/slice.md",
+    "欢迎.md",
+    "0612/GMP模型.md",
     "0612/Context.md",
     "0612/《Flamego 项目全面学习计划》.md",
     "未命名",
-    "欢迎.md",
     "0612"
   ]
 }
