@@ -89,7 +89,8 @@ type hmap struct {
     B         uint8     // 桶数组的大小为 2^B
     noverflow uint16    // 溢出桶的近似数量
     hash0     uint32    // 哈希种子，用于计算键的哈希值
-    // 当前使用的桶数组指针，包含 2^B 个 bucket 的数组。如果 count==0，则可能为 nil
+    // 当前使用的桶数组指针，包含 2^B 个 bucket 的数组
+    // 如果 count==0，则可能为 nil
     buckets    unsafe.Pointer 
     // 扩容时的旧桶数组指针，前一个 bucket 数组，大小为之前的 bucket 的一半，
     // 仅在增长时为非零值
