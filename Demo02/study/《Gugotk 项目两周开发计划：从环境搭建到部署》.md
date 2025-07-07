@@ -66,11 +66,12 @@
 
 7. Consul：服务注册与发现，微服务治理。
 
-8. Prometheus + OpenTelemetry：监控与链路追踪，便于排查问题。
+8.  OpenTelemetry：是**可观测性的基础框架和标准**，专注于**数据采集、标准化和传输**。
+9. Pyroscope：是**专注于持续性能剖析（Continuous Profiling）的工具**，核心功能是记录程序运行时的函数调用、资源消耗（CPU、内存、GC 等）细节，帮你定位性能瓶颈（如耗时函数、内存泄漏）。
 
-9. K6：性能测试工具。
+10. K6：性能测试工具。
 
-10. Fluent Bit：日志收集与处理。
+11. Fluent Bit：日志收集与处理。
 ---
 
 ## 第二步：两周详细复现计划（MySQL，无 Docker）
